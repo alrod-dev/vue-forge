@@ -1,0 +1,171 @@
+:root {
+  /* Colors - Primary */
+  --vf-color-primary: #3b82f6;
+  --vf-color-primary-light: #dbeafe;
+  --vf-color-primary-dark: #1e40af;
+  --vf-color-primary-50: #f0f9ff;
+  --vf-color-primary-600: #2563eb;
+  --vf-color-primary-700: #1d4ed8;
+
+  /* Colors - Secondary */
+  --vf-color-secondary: #6366f1;
+  --vf-color-secondary-light: #e0e7ff;
+  --vf-color-secondary-dark: #4338ca;
+
+  /* Colors - Status */
+  --vf-color-success: #10b981;
+  --vf-color-success-light: #d1fae5;
+  --vf-color-warning: #f59e0b;
+  --vf-color-warning-light: #fef3c7;
+  --vf-color-danger: #ef4444;
+  --vf-color-danger-light: #fee2e2;
+  --vf-color-info: #06b6d4;
+  --vf-color-info-light: #cffafe;
+
+  /* Colors - Neutral */
+  --vf-color-gray-50: #f9fafb;
+  --vf-color-gray-100: #f3f4f6;
+  --vf-color-gray-200: #e5e7eb;
+  --vf-color-gray-300: #d1d5db;
+  --vf-color-gray-400: #9ca3af;
+  --vf-color-gray-500: #6b7280;
+  --vf-color-gray-600: #4b5563;
+  --vf-color-gray-700: #374151;
+  --vf-color-gray-800: #1f2937;
+  --vf-color-gray-900: #111827;
+
+  /* Text Colors */
+  --vf-text-primary: #111827;
+  --vf-text-secondary: #4b5563;
+  --vf-text-tertiary: #6b7280;
+  --vf-text-disabled: #9ca3af;
+  --vf-text-inverse: #ffffff;
+
+  /* Background Colors */
+  --vf-bg-primary: #ffffff;
+  --vf-bg-secondary: #f9fafb;
+  --vf-bg-tertiary: #f3f4f6;
+  --vf-bg-overlay: rgba(0, 0, 0, 0.5);
+
+  /* Border Colors */
+  --vf-border-light: #e5e7eb;
+  --vf-border-default: #d1d5db;
+  --vf-border-dark: #9ca3af;
+
+  /* Spacing */
+  --vf-space-0: 0;
+  --vf-space-1: 0.25rem;
+  --vf-space-2: 0.5rem;
+  --vf-space-3: 0.75rem;
+  --vf-space-4: 1rem;
+  --vf-space-6: 1.5rem;
+  --vf-space-8: 2rem;
+  --vf-space-10: 2.5rem;
+  --vf-space-12: 3rem;
+  --vf-space-16: 4rem;
+  --vf-space-20: 5rem;
+  --vf-space-24: 6rem;
+
+  /* Border Radius */
+  --vf-radius-none: 0;
+  --vf-radius-sm: 0.25rem;
+  --vf-radius-base: 0.5rem;
+  --vf-radius-md: 0.75rem;
+  --vf-radius-lg: 1rem;
+  --vf-radius-xl: 1.5rem;
+  --vf-radius-full: 9999px;
+
+  /* Font Family */
+  --vf-font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  --vf-font-mono: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro',
+    monospace;
+
+  /* Font Size */
+  --vf-text-xs: 0.75rem;
+  --vf-text-sm: 0.875rem;
+  --vf-text-base: 1rem;
+  --vf-text-lg: 1.125rem;
+  --vf-text-xl: 1.25rem;
+  --vf-text-2xl: 1.5rem;
+  --vf-text-3xl: 1.875rem;
+
+  /* Font Weight */
+  --vf-font-normal: 400;
+  --vf-font-medium: 500;
+  --vf-font-semibold: 600;
+  --vf-font-bold: 700;
+
+  /* Line Height */
+  --vf-line-height-tight: 1.25;
+  --vf-line-height-normal: 1.5;
+  --vf-line-height-relaxed: 1.75;
+
+  /* Shadows */
+  --vf-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --vf-shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --vf-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --vf-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --vf-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  /* Transitions */
+  --vf-transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --vf-transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --vf-transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Z-index */
+  --vf-z-dropdown: 1000;
+  --vf-z-modal-backdrop: 1040;
+  --vf-z-modal: 1050;
+  --vf-z-popover: 1060;
+  --vf-z-tooltip: 1070;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--vf-font-sans);
+  color: var(--vf-text-primary);
+  background-color: var(--vf-bg-primary);
+  line-height: var(--vf-line-height-normal);
+}
+
+/* Accessibility */
+:focus-visible {
+  outline: 2px solid var(--vf-color-primary);
+  outline-offset: 2px;
+}
+
+::selection {
+  background-color: var(--vf-color-primary);
+  color: var(--vf-text-inverse);
+}
+
+/* Smooth transitions for system theme changes */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
