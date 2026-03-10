@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vue-forge - Enterprise Vue 3 Component Library</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #0f172a 0%, #1a2332 100%); color: #e2e8f0; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+    .container { max-width: 800px; padding: 48px; text-align: center; }
+    .icon { font-size: 64px; margin-bottom: 24px; }
+    h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 16px; background: linear-gradient(135deg, #42b883, #35495e); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .subtitle { font-size: 1.15rem; color: #94a3b8; margin-bottom: 40px; line-height: 1.6; }
+    .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 40px; text-align: left; }
+    .feature { background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(148, 163, 184, 0.1); border-radius: 12px; padding: 20px; }
+    .feature .feat-icon { font-size: 1.5rem; margin-bottom: 8px; }
+    .feature h3 { font-size: 0.95rem; color: #42b883; margin-bottom: 8px; }
+    .feature p { font-size: 0.85rem; color: #94a3b8; line-height: 1.5; }
+    .tech { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 32px; }
+    .tech span { padding: 4px 12px; background: rgba(66,184,131,0.1); border: 1px solid rgba(66,184,131,0.3); border-radius: 20px; font-size: 0.8rem; color: #42b883; }
+    .btn { display: inline-block; margin-top: 24px; padding: 12px 32px; background: linear-gradient(135deg, #42b883, #35495e); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: opacity 0.2s; }
+    .btn:hover { opacity: 0.9; }
+    .footer { margin-top: 32px; font-size: 0.85rem; color: #64748b; }
+    .footer a { color: #42b883; text-decoration: none; }
+    @media (max-width: 640px) { .features { grid-template-columns: 1fr; } h1 { font-size: 2rem; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">⚡</div>
+    <h1>vue-forge</h1>
+    <p class="subtitle">Enterprise Vue 3 Component Library — Production-grade components, composables, and theming system built for scale.</p>
+    <div class="features">
+      <div class="feature">
+        <div class="feat-icon">⚡</div>
+        <h3>High Performance</h3>
+        <p>Optimized Vue 3 components with minimal bundle overhead and excellent tree-shaking support</p>
+      </div>
+      <div class="feature">
+        <div class="feat-icon">🎨</div>
+        <h3>Comprehensive Theming</h3>
+        <p>Built-in CSS custom properties system with light/dark mode support and easy customization</p>
+      </div>
+      <div class="feature">
+        <div class="feat-icon">♿</div>
+        <h3>Accessibility First</h3>
+        <p>WCAG 2.1 compliant components with proper ARIA attributes and keyboard navigation</p>
+      </div>
+      <div class="feature">
+        <div class="feat-icon">🧪</div>
+        <h3>Well Tested</h3>
+        <p>Full test coverage with Vitest and comprehensive unit tests for all components</p>
+      </div>
+      <div class="feature">
+        <div class="feat-icon">📱</div>
+        <h3>Responsive Design</h3>
+        <p>Mobile-first design approach with breakpoint utilities and responsive components</p>
+      </div>
+      <div class="feature">
+        <div class="feat-icon">🎯</div>
+        <h3>TypeScript Ready</h3>
+        <p>Full TypeScript support with complete type definitions for all components and composables</p>
+      </div>
+    </div>
+    <div class="tech">
+      <span>Vue 3</span>
+      <span>TypeScript</span>
+      <span>Vite</span>
+      <span>VitePress</span>
+      <span>Vitest</span>
+      <span>CSS Custom Properties</span>
+      <span>Composition API</span>
+    </div>
+    <a href="https://github.com/alrod-dev/vue-forge" class="btn" target="_blank">View on GitHub</a>
+    <div class="footer">
+      Built by <a href="https://github.com/alrod-dev" target="_blank">Alfredo Wiesner</a>
+    </div>
+  </div>
+</body>
+</html>
