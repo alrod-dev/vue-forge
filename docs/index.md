@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "vue-forge"
   text: "Enterprise Vue 3 Component Library"
-  tagline: "Production-grade components, composables, and theming system built for scale
+  tagline: "Production-grade components, composables, and theming system built for scale"
   image:
     src: /logo.svg
     alt: vue-forge
