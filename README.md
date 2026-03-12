@@ -8,7 +8,7 @@
 
 **Enterprise Vue 3 Component Library** - A production-grade component library with TypeScript, composables, accessibility, theming, and comprehensive documentation.
 
-Built by [Alfredo Wiesner](https://github.com/alrod-dev), Senior Engineer who previously built component libraries at 1-800 Contacts and Gorilla Group.
+Built by [Alfredo Wiesner](https://github.com/alrod-dev), Senior Engineer with experience building enterprise component libraries.
 
 ## Features
 
@@ -242,10 +242,6 @@ MIT © 2024 [Alfredo Wiesner](https://github.com/alrod-dev)
 **Alfredo Wiesner** - Senior Engineer
 - GitHub: [@alrod-dev](https://github.com/alrod-dev)
 - Email: alrod.dev@gmail.com
-
-Previously built component libraries at:
-- 1-800 Contacts
-- Gorilla Group
 
 ## Support
 
